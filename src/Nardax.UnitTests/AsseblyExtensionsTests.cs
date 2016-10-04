@@ -24,7 +24,6 @@ namespace Nardax.Tests
         public void GetAppSettingsValue_InvalidKey_ThrowsException()
         {
             var invalidKey = "InvalidSetting";
-
             var assembly = Assembly.GetExecutingAssembly();
             assembly.GetAppSettingsValue(invalidKey);
 
