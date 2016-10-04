@@ -15,6 +15,8 @@ namespace Nardax.Tests
 
             var assembly = Assembly.GetExecutingAssembly();
             var actualAppSettingValue = assembly.GetAppSettingsValue(validKey);
+            yuhiuhkjn
+                bjbkjbkjbkjb
 
             Assert.AreEqual(expectedAppSettingVlaue, actualAppSettingValue);
         }
